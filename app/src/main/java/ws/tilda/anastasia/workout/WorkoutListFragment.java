@@ -17,10 +17,11 @@ import android.widget.ListView;
  * A simple {@link Fragment} subclass.
  */
 public class WorkoutListFragment extends ListFragment {
+    //Create nested interface of Listener to make the app listen to the clicks
     interface WorkoutListListener {
         void itemClicked(long id);
     }
-
+    // Create the instance of the interface
     private WorkoutListListener listener;
 
     @Override
@@ -43,7 +44,7 @@ public class WorkoutListFragment extends ListFragment {
 
     }
 
-    //Attaching fragment to activity
+    //Attaching fragment to activity, the method is depreciated but I will use it
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
