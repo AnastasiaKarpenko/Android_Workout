@@ -1,5 +1,6 @@
 # Android_Workout
-learning Android fragments
+
+An app that shows the list of workouts and displays the timer for use in each workout
 
 Topics learnt in this project:
 - Fragments and nested fragments
